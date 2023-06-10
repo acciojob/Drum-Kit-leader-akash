@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+.keys {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.key {
+  border: 1px solid #000;
+  border-radius: 4px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+kbd {
+  display: block;
+}
+
+.sound {
+  font-size: 18px;
+  color: #666;
+}
